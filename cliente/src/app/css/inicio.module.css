@@ -1,0 +1,179 @@
+
+/*Telão inicio*/
+
+.telao{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.imagen_telao{
+    border-radius: 10px;
+}
+
+
+/*Telão fim*/
+
+
+
+
+
+/*categorias inico*/
+
+.conteiner{
+    
+    width: 100%;
+}
+
+.categorias{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*categorias fim*/
+
+/*navegação inicio*/
+
+.texto_logo{
+    font-family: Helvetica,Arial,sans-serif;
+    letter-spacing: 3px
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: stretch;
+    
+    
+    
+    
+}
+
+.imagen_left{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: 15px;
+    
+    
+    
+    
+    
+    
+
+}
+
+.imagen_right{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-right: 15px;
+    
+}
+
+
+/*navegação fim */
+
+.cards_roupas{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.box_card{
+   
+   border: 1px solid #e0e0e0;
+   border-radius: 5px;
+   overflow: hidden;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+   margin: 10px;
+   
+   
+   
+   
+   
+
+
+    
+    
+    
+}
+
+
+
+.imagen_card{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    
+    
+}
+
+
+.info{
+    padding: 15px;
+}
+
+.info h2{
+    font-size: 1.2em ;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.comprar_roupa{
+    margin-left: 15px;
+    margin-bottom: 3px;
+    
+   
+    
+}
+
+.botao_comprar{
+
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+    
+}
+
+.botao_comprar:hover{
+    background-color: #45a049;
+}
+
+
+
+
